@@ -85,15 +85,15 @@ You can download pretrained model from [here](https://drive.google.com/file/d/1o
 If this code helps your research, please cite our paper:
 
 	@inproceedings{thaiplantphenomics,
-		title={Automated Detection and Temporal Analysis of Adoxophyes honmai Using YOLOv11 and Spatial Transformer Networks in Orchard Environments},
-		author={Soon Hwa Kwon, Yong Suk Chung, Jinhyun Ahn, Kyung Jin Park, and Thanh Tuan Thai},
+		title={Advanced Phenotyping Features utilizing Deep Learning Techniques for Automated Analysis of Stomatal Guard Cell Orientation},
+		author={Thanh Tuan Thai, Sheikh Mansoor, Hoang Thien Van, Van Giang Vu, E.M.B.M. Karunathilake, Anh Tuan Le, Faheem Shehzad Baloch, Yong Suk Chung, Jisoo Kim},
 		booktitle={},
 		pages={},
 		year={}
 	}
 
-# Acknowledgement
-This implementation of STN is largely based on the PyTorch implementation of [CP-VTON](https://github.com/sergeywong/cp-vton). We are extremely grateful for their public implementation.
+
+
 
 # License
 ADOXMonitoring is freely available for free non-commercial use, and may be redistributed under these conditions. Please, see the [license](./LICENSE) for further details. For commercial queries, please contact [Prof.Yong Suk Chung](mailto:yschung@jejunu.ac.kr).
