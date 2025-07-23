@@ -109,6 +109,13 @@ python getParam_Stomata_YOLO.py
 ```
 Note that you should change the folder inside the code.
 
+# Result
+
+<div align="center">
+  	<img src="image/results.png" width="100%" />
+	<p>Training log of YOLO.</p>
+</div>
+
 # Citation
 If this code helps your research, please cite our paper:
 
