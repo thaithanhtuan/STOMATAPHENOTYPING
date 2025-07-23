@@ -80,6 +80,16 @@ yolo2labelme       0.0.4
 # Pretrained model of YOLOv8
 You can download pretrained model from [here](https://drive.google.com/file/d/1ortEt95Ugc_KeonrBJ6oWr2cVcmr2G1_/view?usp=sharing): 
 
+# How to run the code
+
+
+Run the training code: 
+
+```
+yolo task=segment mode=train model=yolov8s-seg.pt data=path/to/dataset/data.yml epochs=100 imgsz=512 save=true  
+```
+
+
 
 # Citation
 If this code helps your research, please cite our paper:
