@@ -101,6 +101,14 @@ Predict on test set:
 yolo task=segment mode=predict model=runs/segment/train5/weights/best.pt conf=0.05 source=Datasetfolder/val/images save=True save_txt=True save_crop=True save_conf=True 
 ```
 
+
+Calculate parameter using AngleCalc/getParram_Stomata_YOLO.py: 
+
+```
+python getParam_Stomata_YOLO.py
+```
+Note that you should change the folder inside the code.
+
 # Citation
 If this code helps your research, please cite our paper:
 
