@@ -116,6 +116,13 @@ Note that you should change the folder inside the code.
 	<p>Training log of YOLO.</p>
 </div>
 
+
+<div align="center">
+  	<img src="image/val_batch0_labels.jpg" width="100%" />
+	<p>Predict result on val set.</p>
+</div>
+
+
 # Citation
 If this code helps your research, please cite our paper:
 
