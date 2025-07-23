@@ -89,7 +89,17 @@ Run the training code:
 yolo task=segment mode=train model=yolov8s-seg.pt data=path/to/dataset/data.yml epochs=100 imgsz=512 save=true  
 ```
 
+Predict on train set: 
 
+```
+yolo task=segment mode=predict model=runs/segment/train5/weights/best.pt conf=0.05 source=Datasetfolder/train/images save=True save_txt=True save_crop=True save_conf=True 
+```
+
+Predict on test set: 
+
+```
+yolo task=segment mode=predict model=runs/segment/train5/weights/best.pt conf=0.05 source=Datasetfolder/val/images save=True save_txt=True save_crop=True save_conf=True 
+```
 
 # Citation
 If this code helps your research, please cite our paper:
